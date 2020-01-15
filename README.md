@@ -10,4 +10,6 @@ O objetivo seria integrar, de forma automática, o sistema veeder-root com um ba
 
 O sistema da Gilbarco possui um protocolo aberto de comunicação.
 Conforme informações obtidas o equipamento responde uma requisição tcp na porta **10001**.
+<img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-01.png"/>
+
  
