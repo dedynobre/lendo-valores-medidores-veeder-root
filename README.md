@@ -15,4 +15,10 @@ Conforme informações obtidas o equipamento responde uma requisição tcp na po
 Que após fazer a consulta os dados são retornados da seguinte forma:
 <img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-02.png"/>
 
+O manual, que se encontra no repositório, traz diversos códigos que podem ser digitados para poder obter dados específicos.
+No nosso caso queremos coletar os dados de volume atual, consumido, restante, temperatura, nível de água e altura.
+Para este caso, conforme manual na página 51, o código a ser digitado seria **<SOH>I201TT**, onde:
+
+
+
  
