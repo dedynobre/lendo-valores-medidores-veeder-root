@@ -12,4 +12,7 @@ O sistema da Gilbarco possui um protocolo aberto de comunicação.
 Conforme informações obtidas o equipamento responde uma requisição tcp na porta **10001**.
 <img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-01.png"/>
 
+Que após fazer a consulta os dados são retornados da seguinte forma:
+<img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-02.png"/>
+
  
