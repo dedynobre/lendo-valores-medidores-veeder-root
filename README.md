@@ -38,21 +38,21 @@ Um fluxo básico de extração dos dados está abaixo:
  
 No bloco de função temos o seguinte código:
 ```javascript
-	var a = new Buffer([
+var a = new Buffer([
 
-		0x01,
-		0x49,
-		0x32,
-		0x30,
-		0x31,
-		0x30,
-		0x31
-		
-	])
+	0x01,
+	0x49,
+	0x32,
+	0x30,
+	0x31,
+	0x30,
+	0x31
+	
+])
 
 
-	msg.payload = a
-	return msg;
+msg.payload = a
+return msg;
 
 
 ```
