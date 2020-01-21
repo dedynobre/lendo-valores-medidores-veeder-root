@@ -106,3 +106,26 @@ Após extraído as informações desejadas iremos enviar estes dados para o PIMS
 
 A configuração do envio dos dados para o PIMS é conforme abaixo:
 <img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-04.png"/>
+
+O código da função:
+
+```javascript
+
+var servidor = "localhost:444/piwebapi/";
+
+var funcao1 = "streams/";
+var funcao2 = "/value";
+
+var webid = "A0EGyLsNdWwy0acdR72SBNFTgYD5QUgs26hGS1wBQVoJmcQxALmSClpw0ihAmHczVhQvwUFRVLUFVVEFGLTAxXEtJTlJPU1MgUEFSQUNBVFVcQVZBTsOHQURPXFBPU1RPIERFIENPTUJVU1RJVkVJU1xTSVNURU1BIFZFRURFUiBST09UfFRRNTA1fFZPTFVNRQ";
+
+msg.url = servidor + funcao1 + webid + funcao2;
+msg.method = "POST";
+
+msg.payload = {
+    
+    "Value": msg.payload.volume1
+}
+
+return msg;
+
+```
