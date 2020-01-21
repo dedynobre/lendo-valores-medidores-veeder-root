@@ -134,7 +134,7 @@ O envio de dados para o PI Web API é feito conforme descrição do manual e fei
 <img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-06.png"/>
 
 Como vamos enviar dados o método deve ser o `post`. 
-A url padrão já está definida que é `nome_do_servidor:_porta/piwebaapi`. 
+A url padrão já está definida que é `nome_do_servidor:porta/piwebapi`. 
 A conexão é `stream/webid/value'.
 O `webid` é o identificador do atributo do AF que irá receber os dados.
 O `valor` vem da função anterior onde foi extraido os dados.
@@ -142,4 +142,7 @@ O `valor` vem da função anterior onde foi extraido os dados.
 A configuração do node `http request` ficou da seguinte forma:</br>
 <img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-05.png"/>
 
-Sendo que a maioria das cofiguração ficaram em branco porque foram massadas pela função através do `msg`.
+Sendo que a maioria das cofiguração ficaram em branco porque foram passadas pela função através do `msg`.
+
+Desta forma os dados são enviados para o PIMS escrito no atributo do AF:
+<img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-07.png"/>
