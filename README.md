@@ -53,6 +53,12 @@ var a = new Buffer([
 
 msg.payload = a
 return msg;
-
-
 ```
+
+O comando de envio para a conexão TCP deve ser no formato de buffer, por isso existe a função new Buffer() na conversão do valor em hexadecimal.
+
+O node TCP Request basicamente precisa do IP do dispostivo e a porta de conexão.
+
+o Formato de saída do node TCP é buffer. Sendo que temos que converter o mesmo para uma string. A função para conversar é `.toString()`.
+
+Depois desta conversão a string fica no formato da segunda imagem mostrada acima.
