@@ -101,3 +101,8 @@ Explicando as variáveis do código acima:
 + dados = é um array com as informações desejadas.
 
 O retorno da função é um array com as informações desejadas.
+
+Após extraído as informações desejadas iremos enviar estes dados para o PIMS - OSIsoft através do PI Web API.
+
+A configuração do envio dos dados para o PIMS é conforme abaixo:
+<img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-04.png"/>
