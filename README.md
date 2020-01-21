@@ -32,4 +32,27 @@ O site interessante que ajuda a trabalhar com a conversão é este [aqui](http:/
 Bom, depois de termos estas definições temos que programar para poder coletar os dados de forma automática pois desta forma continua sendo manual igual foi feito acima através do comando telnet pelo powershell ou pelo próprio cmd.
 
 Existem várias formas de buscar os dados, para o meu caso foi utilizado o [Node-Red](https://nodered.org/), pois considerar um ferramente poderosíssima para conexão de 'coisas' e também por estsar alinhado com estratégia de IOT.
+
+Um fluxo básico de extração dos dados está abaixo:
+<img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-03.png"/>
  
+No bloco de função temos o seguinte código:
+```javascript
+	var a = new Buffer([
+
+		0x01,
+		0x49,
+		0x32,
+		0x30,
+		0x31,
+		0x30,
+		0x31
+		
+	])
+
+
+	msg.payload = a
+	return msg;
+
+
+```
