@@ -17,7 +17,16 @@ Que após fazer a consulta os dados são retornados da seguinte forma:
 
 O manual, que se encontra no repositório, traz diversos códigos que podem ser digitados para poder obter dados específicos.
 No nosso caso queremos coletar os dados de volume atual, consumido, restante, temperatura, nível de água e altura.
-Para este caso, conforme manual na página 51, o código a ser digitado seria **<SOH>I201TT**, onde:
+Para este caso, conforme manual na página 51, o código a ser digitado seria **<SOH>I201TT**.
+Este código quando é passado para a requisição TCP deve ser convertido para hexadecimal, com isso temos:
++ SOH: atalho ctrl + A, que equivale a 0x01
++ I: equivale a 0x49
++ 2: equivale a 0x32
++ 0: equivale a 0x30
++ 1: equivale a 0x31
++ 0: equivale a 0x30
++ 1: equivale a 0x31
+
 
 
 
