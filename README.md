@@ -62,3 +62,33 @@ O node TCP Request basicamente precisa do IP do dispostivo e a porta de conexão
 o Formato de saída do node TCP é buffer. Sendo que temos que converter o mesmo para uma string. A função para conversar é `.toString()`.
 
 Depois desta conversão a string fica no formato da segunda imagem mostrada acima.
+
+O código da segunda função que faz a extração dos dados desejados é:
+
+```javascript
+var st
+var resultado
+var j
+var dados = {}
+
+st = msg.payload.toString()
+
+resultado = st.substring(205);
+
+resultado = resultado.split(/\s+/)
+
+dados['volume1'] = Number(resultado[4])
+dados['tc_volume'] = Number(resultado[5]) 
+dados['volume2'] = Number(resultado[6])
+dados['altura'] = Number(resultado[7])
+dados['agua'] = Number(resultado[8])
+dados['temperatura'] = Number(resultado[9])
+dados['produto'] = resultado[3]
+dados['capacidade'] = dados['volume1'] + dados['volume2']
+dados['capacidade_pct'] = parseFloat((dados['volume1'] / dados['capacidade']) * 100).toFixed(2)
+
+msg.payload = dados
+msg.topic = resultado
+
+return msg;
+```
