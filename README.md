@@ -146,3 +146,14 @@ Sendo que a maioria das cofiguração ficaram em branco porque foram passadas pe
 
 Desta forma os dados são enviados para o PIMS escrito no atributo do AF:
 <img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-07.png"/>
+
+# Conclusão
+
+Este é um exemplo claro de aplicação de IIOT, onde podemos integrar um dispositivo que possui comunicação TCP, integrar com um historiador.
+Desta forma podemos ter histórico de consumo de lubrificantes e/ou combustíveis.
+
+Foi configurado envio automática´desta informação tanto para quem recebe quanto para quem fornece o produtos. Com isso houve ganho na dinamica do processo pois os dados são enviados automaticamente e coleta as informações em tempo real sem a necessidade de intervença de operadores. 
+
+# Help
+
+Caso precisem te ajuda ou tenham alguma sugestão, deixe seu comentário [Aqui](https://github.com/dedynobre/lendo-valores-medidores-veeder-root/issues).
