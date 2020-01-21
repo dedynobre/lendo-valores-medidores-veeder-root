@@ -1,5 +1,3 @@
-# Lendo valores de medição dos medidores Gilbarco Veeder-Root
-
 
 ## Objetivo
 
