@@ -139,7 +139,7 @@ A conexão é `stream/webid/value'.
 O `webid` é o identificador do atributo do AF que irá receber os dados.
 O `valor` vem da função anterior onde foi extraido os dados.
 
-A configuração do node `http request` ficou da seguinte forma:
+A configuração do node `http request` ficou da seguinte forma:</br>
 <img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-05.png"/>
 
 Sendo que a maioria das cofiguração ficaram em branco porque foram massadas pela função através do `msg`.
