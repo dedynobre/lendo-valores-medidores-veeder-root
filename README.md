@@ -29,5 +29,7 @@ A seguencia será sempre assim, envia o comando ctrl+A para 'abrir a comunicaç�
 
 O site interessante que ajuda a trabalhar com a conversão é este [aqui](http://www.insecuritynet.com.br/ferramentas-online/converter-texto-para-hexadecimal).
 
+Bom, depois de termos estas definições temos que programar para poder coletar os dados de forma automática pois desta forma continua sendo manual igual foi feito acima através do comando telnet pelo powershell ou pelo próprio cmd.
 
+Existem várias forma de buscar os dados, para o meu caso foi utilizado o [Node-Red](https://nodered.org/).
  
