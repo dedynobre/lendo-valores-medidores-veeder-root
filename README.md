@@ -27,6 +27,8 @@ Este código quando é passado para a requisição TCP deve ser convertido para 
 + 0: equivale a 0x30
 + 1: equivale a 0x31
 
+A seguencia será sempre assim, envia o comando ctrl+A para 'abrir a comunicação' e entra com o código desejado, como mostrado acima.
+
 O site interessante que ajuda a trabalhar com a conversão é este [aqui](http://www.insecuritynet.com.br/ferramentas-online/converter-texto-para-hexadecimal).
 
 
