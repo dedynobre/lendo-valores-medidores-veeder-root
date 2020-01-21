@@ -129,3 +129,6 @@ msg.payload = {
 return msg;
 
 ```
+
+O envio de dados para o PI Web API é feito conforme descrição do manual e feita acima:
+<img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-06.png"/>
