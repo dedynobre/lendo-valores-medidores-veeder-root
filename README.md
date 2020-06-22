@@ -12,6 +12,7 @@ Conforme informações obtidas o equipamento responde uma requisição tcp na po
 <img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-01.png"/>
 
 Que após fazer a consulta os dados são retornados da seguinte forma:
+
 <img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-02.png"/>
 
 O manual, que se encontra no repositório, traz diversos códigos que podem ser digitados para poder obter dados específicos.
