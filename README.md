@@ -13,6 +13,13 @@ O objetivo seria integrar, de forma automática, o sistema veeder-root com um ba
   </a>
 </p>
 
+
+<div>
+  <img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/lub.gif" alt="conexoes-clientes" height="300">
+</div>
+
+<hr />
+
 ## Desenvolvimento
 
 O sistema da Gilbarco possui um protocolo aberto de comunicação.
