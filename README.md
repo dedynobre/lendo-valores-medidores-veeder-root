@@ -14,7 +14,7 @@ O objetivo seria integrar, de forma automática, o sistema veeder-root com um ba
 </p>
 
 
-<div>
+<div align="center">
   <img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/lub.gif" alt="conexoes-clientes" height="250" width="300">
 </div>
 
