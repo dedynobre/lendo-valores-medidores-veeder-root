@@ -175,7 +175,7 @@ Uma vez que as informações estão sendo historizadas podemos visualizar as inf
 Ou também fazer consultas por período:
 
 <div align="center">
-  <img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/graf.gif" alt="conexoes-clientes" height="250" width="400">
+  <img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/graf.gif" alt="conexoes-clientes">
 </div>
 
 ## Conclusão
