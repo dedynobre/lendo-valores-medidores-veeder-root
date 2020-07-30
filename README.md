@@ -168,6 +168,16 @@ Desta forma os dados são enviados para o PIMS escrito no atributo do AF:
 
 > As informações são consultadas e enviadas ao PIMS a cada 20 segundos.
 
+Uma vez que as informações estão sendo historizadas podemos visualizar as informações em tempo real:
+<img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/img-08.png"/>
+
+
+Ou também fazer consultas por período:
+
+<div align="center">
+  <img src="https://github.com/dedynobre/lendo-valores-medidores-veeder-root/blob/master/imagens/graf.gif" alt="conexoes-clientes" height="250" width="400">
+</div>
+
 ## Conclusão
 
 Este é um exemplo claro de aplicação de IIOT, onde podemos integrar um dispositivo que possui comunicação TCP e integrar com um historiador sendo possível enviar também para um banco de dados relacional e até mesmo um controlador PLC.
